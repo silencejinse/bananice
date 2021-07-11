@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>バナナイス</title>
+
+<script type="text/javascript"><!--
+function myEnter(){
+   myPassWord=prompt("秘密のパスワードを入力してください","");
+   if ( myPassWord == "バナナイス" )
+      location.href = "バナナイス.html"
+ 　else if ( myPassWord == "バナナ" )
+      location.href = "バナナ.html";
+
+   else{
+      alert( "パスワードが違います!" );
+   }
+}
+// --></script>
+
+<form>
+入力はこちら 
+<input type="button" value="password" onclick="myEnter()">
+</form>
+
+
+</html>
